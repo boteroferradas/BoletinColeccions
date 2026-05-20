@@ -1,11 +1,17 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-public class Ej2 {
-
+public class Ej3_iterator {
     public static void eliminar5e7(List<Integer> lista){
-        lista.removeIf(n -> n==5 || n==7);
+        Iterator<Integer> iterador = lista.iterator();
+        while (iterador.hasNext()) {
+            Integer n = iterador.next();
+            if (n == 5 || n == 7) {
+                iterador.remove();
+            }
+        }
         System.out.println(lista);
     }
 

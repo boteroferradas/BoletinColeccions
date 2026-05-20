@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ej1 {
+public class Ej1_combinar_taboas {
     public static <T> List<String> combinarTaboas(T[] taboa1, T[] taboa2) {
         List<String> listaResultado = new ArrayList<>();
 

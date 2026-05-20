@@ -8,7 +8,7 @@ public class Ej5 {
 
         List<Integer> nPositivos = new ArrayList<Integer>();
 
-        System.out.println("Introduce un numero: ");
+        System.out.println("Introduce un numero(-1 para sair): ");
         int n = teclado.nextInt();
 
         while (n != -1) {

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Ej4 {
+public class Ej4_scanner {
 
     public static int sumarLista(List<Integer> lista){
         int suma = 0;
